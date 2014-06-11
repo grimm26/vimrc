@@ -11,6 +11,13 @@ let g:loaded_ctrlp = 1
 " disable annoying mapping for ctrlp
 unmap <c-b>
 
+" undo stupid map of 0 to ^
+unmap 0
+
+" undo stupid map of j -> gj and k -> gk
+unmap j
+unmap k
+
 " disable annoying mappings from extended.vim
 iunmap $1
 iunmap $2
