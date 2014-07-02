@@ -26,3 +26,6 @@ iunmap $4
 iunmap $q
 iunmap $e
 iunmap $t
+
+" enable vim_cf3 plugin abbreviations
+let g:EnableCFE3KeywordAbbreviations=1
