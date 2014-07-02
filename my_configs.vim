@@ -5,6 +5,7 @@ set nohlsearch
 set shiftwidth=2
 set tabstop=2
 set sts=2
+set foldcolumn=0
 
 " disable ctrlp
 let g:loaded_ctrlp = 1
